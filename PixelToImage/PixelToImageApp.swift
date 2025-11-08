@@ -10,7 +10,8 @@ import SwiftUI
 struct PixelToImageApp: App {
     var body: some Scene {
         WindowGroup {
-            SwiftUIExample()
+            AnimatedGradientButtonSample()
+//            SwiftUIExample()
 //            DemoButton()
 //            PixelToImageView(imageName: "SVP.jpg")
         }
