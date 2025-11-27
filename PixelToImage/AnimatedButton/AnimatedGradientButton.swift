@@ -9,11 +9,11 @@ import SwiftUI
 
 struct AnimatedGradientButtonSample: View {
     var body: some View {
-        AnimatedGradientButton()
+        AnimatedGradientButton1()
     }
 }
 
-struct AnimatedGradientButton: View {
+struct AnimatedGradientButton1: View {
     @State private var animate = false
     
     // Customize these colors for your pastel effect
